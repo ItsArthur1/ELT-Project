@@ -2,6 +2,7 @@
 
 Requisitos previos:
 - Instalar Docker
+- NodeJS
 
 <br>
 
