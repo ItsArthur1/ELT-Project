@@ -49,6 +49,18 @@ Para poder ejecutar redash es necesario ejecutar los siguientes comandos en una 
 
 ```bash
 cd redash
+
 docker compose up
 
+yarn --frozen-lockfile
+
+# Create tables
+docker-compose run --rm server create_db
+
+# Create database for tests
+docker-compose run --rm postgres psql -h postgres -U postgres -c "create database tests"
+
+yarn build
+
+yarn start
 ```
