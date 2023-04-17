@@ -45,7 +45,7 @@ docker compose up airflow-init
 
 <br>
 
-Para poder ejecutar redash es necesario ejecutar los siguientes comandos:
+Para poder ejecutar redash es necesario ejecutar los siguientes comandos en una terminal nueva:
 
 ```bash
 cd redash
