@@ -99,9 +99,6 @@ services:
     command: ["test"]
 
 
-
-
-
   postgres:
     image: postgres:13
     environment:
