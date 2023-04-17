@@ -1,5 +1,9 @@
 # ELT-Project
 
+Requisitos previos:
+- Instalar Docker
+
+
 El proyecto de debe de instalar de la siguiente manera:
 
 ```bash
